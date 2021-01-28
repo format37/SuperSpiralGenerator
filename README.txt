@@ -1,3 +1,8 @@
+#### this fork ++   
+have additional sript server_spiral.js wich can make simplified version of spiral on bedrock edition server   
+he is not made a copy. he only make once named block and started spiral from wand selection   
+#### this fork --
+
 Super Spiral Generator Scripts - Created by inHaze
 
 NOTE: Updated and fixed by jonthesquirrel: https://github.com/jonthesquirrel/SuperSpiralGenerator
