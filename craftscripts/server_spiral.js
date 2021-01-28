@@ -1,7 +1,3 @@
-//importPackage(Packages.com.sk89q.worldedit);
-//importPackage(Packages.com.sk89q.worldedit.math);
-//importPackage(Packages.com.sk89q.worldedit.blocks);
-
 importPackage(Packages.com.sk89q.worldedit);
 importPackage(Packages.com.sk89q.worldedit.math);
 importPackage(Packages.com.sk89q.worldedit.blocks);
@@ -71,7 +67,6 @@ if (argv.length > 1)  {
 			}
 		}
 		blocks.setBlock(vec, blocktype);
-		player.print('set vec '+vec+' '+blocktype)
 		if (dFlag == 1)  {
 			blocks.setBlock(vec2, blocktype);
 			player.print('set vec2 '+vec2+' '+blocktype)
@@ -80,7 +75,5 @@ if (argv.length > 1)  {
 		
 		loopCnt++;
 	}
-	player.print(blocktype);
-	player.print(loopCnt);
 	player.print("New spiral generated with " + loopCnt + " points!  -  [" + radius + ", " + compress + ", " + coilCnt + ", " + dFlag + ", " + hFlag + "]");
 }
